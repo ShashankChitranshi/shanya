@@ -59,7 +59,7 @@ body{
 
 .couple-wrap {
     position: relative;
-    padding: 15px 30px;
+    padding: 15px;
     border: 10px solid #f00;
     margin-top: 60px;
 }
@@ -93,11 +93,12 @@ body{
     color: #df0909;
     font-weight: bold;
     font-size: 30px;
+    margin-bottom: 0;
 }
 
 .header-invitation-text {
     font-family: 'Dancing Script', cursive;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .heart {
@@ -247,7 +248,7 @@ body{
   .timeline-body > ul {
     font-family: 'Dancing Script', cursive;
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 20px;
   }
   .timeline-heading p{
     font-family: 'Dancing Script', cursive;
@@ -316,4 +317,151 @@ body{
     vertical-align: bottom;
     color: #fff;
     font-size: 40px;
+}
+
+.parents{
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+    color: #dc0000;
+}
+
+@media (max-width: 767px){
+    .flowerimg img{
+        width: 320px;
+    }
+    .full-content {
+        padding: 80px 0px;
+    }
+    .our-img {
+        width: 260px;
+        margin: auto;
+    }
+    .d-heart .sha {
+        padding: 20px;
+        margin: 0;
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+        display: inline-block;
+    }
+    .d-heart img {
+        width: 70px;
+    }
+    .d-heart .tan {
+        padding: 20px;
+        margin: 0;
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+        display: inline-block;
+    }
+    .d-heart {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .invitation p {
+        font-family: 'Dancing Script', cursive;
+        font-size: 25px;
+        text-align: center;
+        word-spacing: 20px;
+        padding: 0;
+        padding-right: 0;
+    }
+    .time-left h3 {
+        font-family: 'Dancing Script', cursive;
+        margin: 10px;
+        font-size: 34px;
+    }
+    .time-left p {
+        font-family: 'Zilla Slab', serif;
+        font-size: 28px;
+    }
+    .couple-wrap {
+        margin-top: 30px;
+    }
+    .header-couple-names {
+        font-family: 'Dancing Script', cursive;
+        margin: 0 0 15px;
+        font-size: 35px;
+    }
+    .couple-half {
+        width: 100%;
+    }
+    .heart {
+        display: none;
+    }
+    .page-header {
+        text-align: center;
+        padding-top: 0px;
+        border-bottom: none !important;
+    }
+    .page-header p {
+        font-family: 'Dancing Script', cursive;
+        margin: 0 0 25px;
+        font-size: 25px;
+    }
+    .timeline:before {
+        left: 0;
+    }
+    .timeline > li > .timeline-badge {
+        color: #fff;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 9px;
+        left: 35px;
+        z-index: 100;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+    .timeline > li > .timeline-panel {
+        width: auto;
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+        border: 1px solid #ff0000;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+        margin-left: 20px;
+    }
+    .venue-detail {
+        text-align: center;
+        margin:0;
+    }
+    .header-couple-names {
+        font-family: 'Dancing Script', cursive;
+        margin: 0 0 30px;
+        font-size: 50px;
+    }
+    .venue-detail .timeline-panel {
+        border: 10px solid #048c92;
+        width: auto;
+        margin: auto;
+        padding: 20px;
+    }
+    .timeline-title {
+        font-family: 'Dancing Script', cursive;
+        margin-top: 0;
+        color: inherit;
+        font-size: 25px;
+    }
+    .footer {
+        padding: 10px;
+    }
+    .footer h1 {
+        font-size: 30px;
+    }
+    .footer h2 {
+        font-family: 'Dancing Script', cursive;
+        display: block;
+        color: #fff;
+        font-size: 30px;
+    }
+    .couple-half .desc-groom {
+        padding-right: 0;
+        text-align: left;
+    }
+    .couple-half .desc-bride {
+        padding-left: 0;
+        text-align: right;
+    }
 }
