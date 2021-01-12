@@ -337,7 +337,7 @@ body{
         margin: auto;
     }
     .d-heart .sha {
-        padding: 20px;
+        padding: 20px 5px;
         margin: 0;
         font-family: 'Dancing Script', cursive;
         font-size: 30px;
@@ -347,7 +347,7 @@ body{
         width: 70px;
     }
     .d-heart .tan {
-        padding: 20px;
+        padding: 20px 5px;
         margin: 0;
         font-family: 'Dancing Script', cursive;
         font-size: 30px;
