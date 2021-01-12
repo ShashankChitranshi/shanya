@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Zilla+Slab:wght@500&display=swap');
+
+body{
+    font-family: 'Dancing Script', cursive;
+}
+.wedding-card {
+    background-image: url("https://drive.google.com/uc?id=1FnHMr9IsDqfWJKNlzU-I8P5VCS1OKXVc");
+    background-position: center;
+    position: relative;
+}
+
+.flowerimg{
+    position: absolute;
+}
+.full-content{
+    padding: 120px 0 60px;
+}
+.our-img {
+    width: 300px;
+}
+
+.our-img img{
+    width: 100%;
+    border: 10px solid #048c92;
+    padding: 10px;
+}
+
+.d-heart {
+    text-align: center;
+}
+
+.d-heart .sha{
+    padding: 40px 0 20px;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+
+.d-heart img{
+    width: 200px;
+}
+
+.d-heart .tan{
+    padding: 20px 0 0px;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+
+.invitation p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 42px;
+    text-align: center;
+    word-spacing: 20px;
+    padding: 60px 90px;
+    padding-right: 0;
+}
+
+.couple-wrap {
+    position: relative;
+    padding: 15px 30px;
+    border: 10px solid #f00;
+    margin-top: 60px;
+}
+
+.couple-half {
+    width: 49%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+.couple-half .groom {
+    float: right;
+    margin-right: 5px;
+}
+
+.couple-half .groom img, .couple-half .bride img {
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.couple-half .desc-groom {
+    padding-right: 180px;
+    text-align: right;
+}
+
+.couple-half h3 {
+    font-family: 'Dancing Script', cursive;
+    color: #df0909;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.header-invitation-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+}
+
+.heart {
+    position: absolute;
+    top: 170px;
+    left: 0;
+    right: 20px;
+    z-index: 99;
+    animation: pulse 1s ease infinite;
+}
+
+.heart i {
+    font-size: 20px;
+    background: #fff;
+    padding: 10px;
+    color: #F14E95;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.couple-half .bride {
+    float: left;
+    margin-left: 5px;
+}
+
+.couple-half .desc-bride {
+    padding-left: 180px;
+    text-align: left;
+}
+
+.header-couple-names {
+    font-family: 'Dancing Script', cursive;
+    margin: 0 0 25px;
+    font-size: 50px;
+}
+
+.page-header {
+    text-align: center;
+    padding-top: 60px;
+    border-bottom: none !important;
+}
+
+.page-header p {
+    font-family: 'Dancing Script', cursive;
+    margin: 0 0 25px;
+    font-size: 35px;
+}
+
+.timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+}
+  
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 10px;
+    background-color: #f50b0b;
+    left: 50%;
+    border-radius: 10px;
+}
+  
+  .timeline > li {
+    margin-bottom: 50px;
+    position: relative;
+  }
+  
+  .timeline > li:before,
+  .timeline > li:after {
+    content: " ";
+    display: table;
+  }
+  
+  .timeline > li:after {
+    clear: both;
+  }
+  
+  .timeline > li:before,
+  .timeline > li:after {
+    content: " ";
+    display: table;
+  }
+  
+  .timeline > li:after {
+    clear: both;
+  }
+  
+  .timeline > li > .timeline-panel {
+    width: 40%;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #ff0000;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  }
+
+  .timeline > li > .timeline-badge {
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 16px;
+    left: 44%;
+    z-index: 100;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+
+  .timeline-badge img{
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+  }
+  
+  .timeline > li.timeline-inverted > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+  }
+  
+  .timeline > li.timeline-inverted > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+  }
+  
+  .timeline-title {
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+    color: inherit;    
+    font-size: 36px;
+  }
+  
+  .timeline-body > p,
+  .timeline-body > ul {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .timeline-heading p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+  }
+  
+  .timeline-body > p + p {
+    font-family: 'Dancing Script', cursive;
+    margin-top: 5px;
+  }
+
+  .time-left {
+    text-align: center;
+}
+.time-left h3 {
+    font-family: 'Dancing Script', cursive;
+    margin: 55px 0 25px;
+    font-size: 50px;
+}
+
+.time-left p {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Zilla Slab', serif;
+    font-size: 40px;
+}
+
+.venue-detail {
+    text-align: center;
+    margin: 70px 0 0;
+}
+
+.venue-detail .timeline-panel {
+    border:10px solid #048c92;
+    width: 480px;
+    margin: auto;
+    padding: 40px;
+}
+
+.venue-detail p{
+    font-size: 20px;
+}
+
+.footer{
+    background: #000;
+    text-align: center;
+    padding: 30px;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #000000 50%, #5f0000 75%);
+}
+
+.footer h1{
+    font-family: 'Dancing Script', cursive;
+    vertical-align: bottom;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.footer img{
+    width: 260px;
+    vertical-align: top;
+}
+
+.footer h2{
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    vertical-align: bottom;
+    color: #fff;
+    font-size: 40px;
+}
